@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,700;0,900;1,900&display=swap";
+
+:root {
+    --color-back: #1D1C24;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+body {
+    background: #111116;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    text-align: center;;
+}
+
+header {
+    padding: 25px;
+    border-bottom: 1px solid #333;
+    background: var(--color-back);
+    text-align: center;
+}    
+
+header div a {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 30px;
+    text-decoration: none;
+}
+header div a:hover {
+    color:rgba(202, 202, 202, 0.452);
+    transition: color 300ms;
+}
+
+#section {
+    text-align: center;
+    padding: 15px;
+
+}
+#section h1 {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 30px;
+    text-decoration: none;
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+}
+
+#section a {
+    color:white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 30px;
+    text-decoration: none;
+    
+}
+
+#section img {
+    border-radius: 50%;
+    margin-top: 15px;
+    height: 200px;
+}
+
+#section h2 {
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+
+.list {
+    max-width: 200px;
+    margin: 5px auto;
+    font-size:  14px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 8px;
+    opacity: 0.8;
+    
+}
+
+.list h3 {
+    margin: 15px auto;
+    font-size:  18px;
+    line-height: 24px;
+    margin-top: 8px;
+    opacity: 0.9;
+    text-align: center;
+    
+}
+
+#sm {
+    text-align: center;
+}
+
+#sm img {
+    height: 20px;
+    padding: 0px 10px; 
+}
