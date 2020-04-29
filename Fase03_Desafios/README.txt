@@ -1,0 +1,1 @@
+Para executar a aplicação é necessário realizar a instalação express e o nodemon.
