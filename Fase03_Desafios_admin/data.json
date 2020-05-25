@@ -1,0 +1,46 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "avatar_url": "https://images.unsplash.com/photo-1571179628313-f0971fe323c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+      "name": "Maria Augusta Firmino",
+      "birth": 935971200000,
+      "email": "mariaaf@gmail.com",
+      "type": "F",
+      "educ_level": "9ºEF",
+      "hours": "10"
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1542156822-6924d1a71ace?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+      "name": "Mário Heleno da Silva",
+      "birth": 977702400000,
+      "email": "mariheleno@bol.com.br",
+      "type": "M",
+      "educ_level": "1ºEM",
+      "hours": "5"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "https://images.unsplash.com/photo-1548449112-96a38a643324?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+      "name": "Luiz Sérgio Aquino",
+      "birth": 388540800000,
+      "educ_level": "Doutorado",
+      "type": "D",
+      "subjects": "Física, Química",
+      "created_at": 1589301713606
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1525571453712-090270b8354f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+      "name": "Lislandra Azevedo Nogueira",
+      "birth": 622425600000,
+      "educ_level": "Mestrado",
+      "type": "P",
+      "subjects": "Matemática, Informática",
+      "created_at": 1589301763365
+    }
+  ]
+}

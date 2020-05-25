@@ -1,0 +1,118 @@
+<div class="item">
+            <div>Avatar URL</div>
+            <div>
+                <input 
+                    type="url" 
+                    name="avatar_url"
+                    placeholder="http://"
+                    value="{{ student.avatar_url }}" 
+                >           
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Nome</div>
+            <div>
+                <input 
+                    type="text" 
+                    name="name"
+                    value="{{ student.name }}"  
+                >            
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Data de Nascimento</div>
+            <div>
+                <input 
+                    type="date" 
+                    name="birth"
+                    value="{{ student.birth }}" 
+                >          
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Email</div>
+                <div>
+                    <input 
+                        type="email" 
+                        name="email"
+                        placeholder="Informe seu E-mail"
+                        value="{{ student.email }}"  
+                    >            
+                </div>
+        </div>
+
+        <div class="item">
+            <div>Sexo</div>
+            <div>
+                <span>
+                    <input 
+                        type="radio" 
+                        name="type" 
+                        value="M" 
+                        {% if student.type == 'M'%}
+                            checked
+                        {% endif %}
+                        > Masculino
+                </span>         
+                <span>
+                    <input 
+                    type="radio" 
+                    name="type" 
+                    value="F"
+                    {% if student.type == 'F'%}
+                        checked
+                    {% endif %}
+                    > Feminino
+                </span>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <div>Ano Escolar</div>
+            <div> 
+                  <select name="educ_level">
+                    <option value="5ºEF"
+                        {% if student.educ_level == "5ºEF"%}selected{%endif%}
+                    >5º Ano Ensino Fundamental</option>
+                    <option value="6ºEF"
+                        {% if student.educ_level == "6ºEF"%}selected{%endif%}
+                    >6º Ano Ensino Fundamental</option>
+                    <option value="7ºEF"
+                        {% if student.educ_level == "7ºEF"%}selected{%endif%}
+                    >7º Ano Ensino Fundamental</option>
+                    <option value="8ºEF"
+                        {% if student.educ_level == "8ºEF"%}selected{%endif%}
+                    >8º Ano Ensino Fundamental</option>
+                    <option value="9ºEF"
+                        {% if student.educ_level == "9ºEF"%}selected{%endif%}
+                    >9º Ano Ensino Fundamental</option>
+                    <option value="1ºEM"
+                        {% if student.educ_level == "1ºEM"%}selected{%endif%}
+                    >1º Ano Ensino Médio</option>
+                    <option value="2ºEM"
+                        {% if student.educ_level == "2ºEM"%}selected{%endif%}
+                    >2º Ano Ensino Médio</option>
+                    <option value="3ºEM"
+                        {% if student.educ_level == "3ºEM"%}selected{%endif%}
+                    >3º Ano Ensino Médio</option>
+                  </select>
+            </div>
+        </div>       
+
+        <div class="item">
+            <div>Carga Horária Semanal</div>
+            <div>
+                <input 
+                    type="number" 
+                    name="hours"
+                    placeholder="Informe as horas aulas semanal"
+                    value="{{ student.hours }}"  
+                >            
+            </div>
+        </div>
+
+        <button type="submit">Salvar</button>
