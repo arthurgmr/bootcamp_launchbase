@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        {% block head %}
+        <title>Private Class</title>             
+        {% endblock %}
+
+        <link rel="stylesheet" href="/styles.css">
+        
+    </head>
+
+    <body>
+        <header>
+            <div class="links">
+                <a href="/teachers">PROFESSOR</a>
+                <a href="/students">ALUNOS</a>
+
+            </div>
+        
+        </header>
+
+        {% block content %}
+
+        {% endblock %}
+
+        <script src="/scripts.js"></script>
+    </body>
+
+
+
+
+</html>
